@@ -6,11 +6,8 @@
 - Student ID: ST10520226
 - Date: 2026-06-19
 
----
 
-## Changelog
-
-### Part 3 Additions (2026-06-19)
+Changes (Part 3 Additions) (2026-06-19)
 
 #### 1. JavaScript Enhancements
 - **Lightbox Gallery**: Click any gallery image to view enlarged version with caption. Press Escape or click outside to close.
