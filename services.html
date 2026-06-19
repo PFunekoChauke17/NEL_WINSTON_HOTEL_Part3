@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEL WINSTON HOTEL Services - Luxury rooms, spa, gym, pool, restaurant. World-class amenities for an unforgettable stay.">
+    <meta name="keywords" content="NEL WINSTON HOTEL, services, luxury rooms, spa, gym, swimming pool, restaurant, bar, fitness">
+    <meta name="author" content="Pfuneko Chauke">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Our Services | NEL WINSTON HOTEL">
+    <meta property="og:description" content="Explore luxury rooms, spa, gym, pool, and restaurant at NEL WINSTON HOTEL.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nelwinstonhotel.netlify.app/services.html">
+    <title>Our Services | NEL WINSTON HOTEL</title>
+    <link rel="canonical" href="https://nelwinstonhotel.netlify.app/services.html">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>NEL WINSTON HOTEL</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="booknow.html" class="book-now-btn">Book Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Services Section -->
+        <section class="services-page">
+            <h2>Our Services</h2>
+
+            <!-- Search Filter -->
+            <div class="search-container">
+                <input type="text" id="service-search" placeholder="Search services..." aria-label="Search services">
+                <button id="search-btn" onclick="filterServices()">Search</button>
+            </div>
+
+            <div class="services-container" id="services-list">
+                <div class="service-card" data-name="luxury rooms accommodation">
+                    <h3>Luxury Rooms</h3>
+                    <p>Spacious and comfortable rooms with modern amenities and elegant design.</p>
+                    <span class="service-tag">Accommodation</span>
+                </div>
+                <div class="service-card" data-name="swimming pool relax">
+                    <h3>Swimming Pool</h3>
+                    <p>Relax and unwind in our beautiful pool area with stunning views.</p>
+                    <span class="service-tag">Relaxation</span>
+                </div>
+                <div class="service-card" data-name="restaurant bar dining">
+                    <h3>Restaurant & Bar</h3>
+                    <p>Enjoy delicious meals and refreshing drinks crafted by top chefs.</p>
+                    <span class="service-tag">Dining</span>
+                </div>
+                <div class="service-card" data-name="gym fitness workout">
+                    <h3>Gym & Fitness</h3>
+                    <p>Stay fit with our state-of-the-art equipment and personal trainers.</p>
+                    <span class="service-tag">Fitness</span>
+                </div>
+                <div class="service-card" data-name="spa wellness massage">
+                    <h3>Spa & Wellness</h3>
+                    <p>Rejuvenate your body and mind with our premium spa treatments.</p>
+                    <span class="service-tag">Wellness</span>
+                </div>
+                <div class="service-card" data-name="conference meeting business">
+                    <h3>Conference Facilities</h3>
+                    <p>Modern meeting rooms equipped with the latest technology for your business needs.</p>
+                    <span class="service-tag">Business</span>
+                </div>
+            </div>
+
+            <p id="no-results" class="no-results" style="display:none;">No services found matching your search.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 NEL WINSTON HOTEL. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>

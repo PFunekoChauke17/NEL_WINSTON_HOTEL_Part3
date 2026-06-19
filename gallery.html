@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEL WINSTON HOTEL Gallery - View our luxury rooms, pool, gym, spa, restaurant, and executive suites.">
+    <meta name="keywords" content="NEL WINSTON HOTEL, gallery, luxury rooms, pool, gym, spa, restaurant, suite, photos">
+    <meta name="author" content="Pfuneko Chauke">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Gallery | NEL WINSTON HOTEL">
+    <meta property="og:description" content="View photos of luxury rooms, pool, gym, spa, and restaurant at NEL WINSTON HOTEL.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nelwinstonhotel.netlify.app/gallery.html">
+    <title>Gallery | NEL WINSTON HOTEL</title>
+    <link rel="canonical" href="https://nelwinstonhotel.netlify.app/gallery.html">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>NEL WINSTON HOTEL</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="booknow.html" class="book-now-btn">Book Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-page">
+            <h1>Hotel Gallery</h1>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/SAUNA introspectivedsgn-4062524.jpg" alt="NEL WINSTON HOTEL Sauna - Relaxing steam room experience" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Sauna</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/PPPPPPfa6fdd7ba2729ae12120347e9d061a45.jpg" alt="NEL WINSTON HOTEL Swimming Pool - Beautiful pool with stunning views" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Swimming Pool</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/Sofitel-Dubai-Wafi-Luxury-Room-Bedroom-Skyline-View-Image1_WEB.jpg" alt="NEL WINSTON HOTEL Luxury Room - Elegant bedroom with skyline view" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Luxury Room</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/170526141641-worlds-best-hotel-gyms-marriott-abu-dhabi-al-forsan.jpg" alt="NEL WINSTON HOTEL Gym - State-of-the-art fitness equipment" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Fitness Center</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/pngtree-contemporary-dining-experience-3d-render-of-hotel-restaurant-interior-image_3904096.jpg" alt="NEL WINSTON HOTEL Restaurant - Contemporary dining experience" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Restaurant</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/pexels-introspectivedsgn-4062524.jpg" alt="NEL WINSTON HOTEL Lobby - Grand hotel entrance and reception" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Hotel Lobby</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/R.jpg" alt="NEL WINSTON HOTEL Spa - Premium wellness treatments" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Spa</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dmo-Seven-suites-01-Beijing.avif" alt="NEL WINSTON HOTEL Executive Suite - Premium accommodation with city view" loading="lazy" onclick="openLightbox(this)">
+                    <p class="gallery-caption">Executive Suite</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" alt="Gallery enlarged view">
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 NEL WINSTON HOTEL. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="sitemap.xml">Sitemap</a>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
