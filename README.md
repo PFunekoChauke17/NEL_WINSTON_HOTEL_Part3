@@ -94,9 +94,6 @@
 ├── JS/
 │   └── main.js
 └── README.md
-```
-
----
 
 ## Deployment
 - Platform: Netlify (free hosting)
