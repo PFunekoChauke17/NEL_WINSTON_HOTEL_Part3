@@ -1,5 +1,5 @@
 # NEL WINSTON HOTEL Website
-## Part 3: Enhancing Functionality and SEO
+## Part 3
 
 **Student Information**
 - Name: Pfuneko Chauke
