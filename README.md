@@ -111,3 +111,4 @@ Changes (Part 3 Additions) (2026-06-19)
 
 ## GitHub Repository
 https://github.com/PFunekoChauke17/PART-1---PC.git
+https://github.com/PFunekoChauke17/NEL WINSTON HOTEL Part3.git
